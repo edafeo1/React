@@ -10,13 +10,15 @@ export default class RoomProvider extends Component {
     sortedRooms: [],
     featuredRooms: [],
     loading: true,
+     
+
     //
     };
 
 
     componentDidMount(){
         let rooms = this.formatData(AppData);
-        let featuredRooms =  rooms.filter(room => room.feature === true);
+        let featuredRooms =  rooms.filter(room => room.featured === true);
         this.setState({
             rooms,
             featuredRooms,
@@ -24,6 +26,7 @@ export default class RoomProvider extends Component {
             loading: false
         });
         console.log(rooms);
+        console.log(featuredRooms);
     }
 
     formatData(AppData){
