@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Banner({children,title,Subtitle}) {
+function Banner({children,title,Subtitle,classss}) {
     return (
-        <div className="banner">
+        <div className={classss}>
             <h1>{title}</h1>
             <div></div>
             <p>{Subtitle}</p>
