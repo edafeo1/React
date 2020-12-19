@@ -184,6 +184,12 @@ h6 {
 .banner h1 {
   font-size: 2.5rem;
 }
+
+.banner h4 {
+  font-size: 2rem;
+  text-align: center;
+}
+
 .banner div {
   width: 10rem;
   height: 5px;
@@ -201,6 +207,11 @@ h6 {
   .banner h1 {
     font-size: 3rem;
   }
+
+  .banner h4 {
+    font-size: 2rem;
+    text-align: center;
+  }
 }
 @media screen and (min-width: 992px) {
   .banner {
@@ -215,16 +226,68 @@ h6 {
 /* About */
 
   .about{
-    
+    text-align: center;
     display: flex;
-    
+    border-radius: 20px;
+    margin-bottom: 10px;
+    z-index: 2;
   }
 
   .right__section{
-    margin-top: 140px;
-  
+    padding: 20px;
+    margin-bottom: 40px;
+    z-index: 1;
+    margin-left: 500px;
+    position: absolute;
   }
 
   .about__section{
-    
+    display: flex;
   }
+
+  .about__banner h4 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .about__banner{
+    background-color: rgb(221, 218, 218);
+    padding: 20px;
+    margin-bottom: 120px;
+    margin-top: 80px;
+    margin-right: 500px;
+    z-index: 2;
+    text-align: left;
+  }
+
+  /* End of About */
+
+
+  /* Features */
+
+
+  .about-features{
+  
+      text-align: center;
+      border-radius: 20px;
+      margin-bottom: 10px;
+      
+  }
+
+
+  .amenities{
+    display: flex;
+    text-align: center;
+    
+    border-radius: 20px;
+    margin-bottom: 10px;
+
+  }
+.amenities__right{
+  margin-left: 800px;
+}
+
+
+.images{
+  width: 350px;
+}

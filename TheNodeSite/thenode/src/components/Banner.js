@@ -5,7 +5,7 @@ function Banner({children,title,Subtitle,classss}) {
         <div className={classss}>
             <h1>{title}</h1>
             <div></div>
-            <p>{Subtitle}</p>
+            <h4>{Subtitle}</h4>
             {children}
         </div>
     )

@@ -7,11 +7,12 @@ function SuitesAvailable() {
         <section>
             <article className="suites__available">
 
-               <Title title="About Us"></Title>
+              
 
                 <Banner 
                 title=""
                 Subtitle="Suites Available"
+                classss="banner"
                 >
                      <p>Lets Innovate at The Node Innovation Centre Collingwood is a desk office suitable for a team of 12 people. </p>
                      

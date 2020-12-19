@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from '../images/Node-4.jpg';
-import logo2 from '../images/Node-2.jpg';
 import Title from './Title';
 import Banner from './Banner';
 
 function About() {
     return (
        <section className="about__section">
+           <Title title="About Us"/>
 
            
 
@@ -21,6 +21,10 @@ function About() {
                        Try out Collingwood's most talked-about business space. if your looking for a prestige fully serviced office The Node Innovation Centre Collingwood is the space for you. Depending on your office requirements our suites range between $800-$1200 per Week. 
                    </p>
 
+                   <div>
+                       
+                   </div>
+
                </Banner>
            
               
@@ -30,28 +34,8 @@ function About() {
          </div>
            
 
-           
+           <line className="Line"></line>
 
-
-
-           <article>
-           <Title title="features"></Title>
-                    <ul className="feature__right'">
-                        <li>UNLIMITED Free WIFI</li>
-                        <li>UNLIMITED Free printing and scanning</li>
-                        <li>UNLIMITED 24/7 access to the space</li>
-                        <li>50 metres from Smith Street, 10 minute walk from Collingwood station</li>
-                        <li>Kitchen/shower facilities</li>
-                        <li>Secure access via Key-card or mobile</li>
-                        <li>Flexible terms: pay per month</li>
-                        <li>professional meeting room</li>
-                        <li>Day beds to chill and play </li>
-                    </ul>
-
-                    <div className="feature__left">
-                        <img src={logo2} alt="Kitchen"/>
-                    </div>
-                </article>
 
        </section>
     )
