@@ -1,38 +1,54 @@
 import React from 'react'
 import Title from '../components/Title';
 import logo2 from '../images/Node-2.jpg';
+import Banner from '../components/Banner';
 
 function Features() {
     return (
-        <div className="about-features">
-        <Title title="features"></Title>
-        <article className="features">
-       
+        
+<section className="">
+<Title title="Features"/>
 
-       <div className="features__left">
-           <img src={logo2} alt="Kitchen"/>
-       </div>
 
-       <div>
-       <ul className="feature__right'">
-           <li>UNLIMITED Free WIFI</li>
-           <li>UNLIMITED Free printing and scanning</li>
-           <li>UNLIMITED 24/7 access to the space</li>
-           <li>50 metres from Smith Street, 10 minute walk from Collingwood station</li>
-           <li>Kitchen/shower facilities</li>
-           <li>Secure access via Key-card or mobile</li>
-           <li>Flexible terms: pay per month</li>
-           <li>professional meeting room</li>
-           <li>Day beds to chill and play </li>
-       </ul>
-       </div>
-      
+
+<div className="features">
+   <Banner 
+    title=""
+    Subtitle="Feature"
+    classss="features__banner"
+    >
+
+           <p>UNLIMITED Free WIFI</p>
+           <p>UNLIMITED Free printing and scanning</p>
+           <p>UNLIMITED 24/7 access to the space</p>
+           <p>50 metres from Smith Street, 10 minute walk from Collingwood station</p>
+           <p>Kitchen/shower facilities</p>
+           <p>Secure access via Key-card or mobile</p>
+           <p>Flexible terms: pay per month</p>
+           <p>professional meeting room</p>
+           <p>Day beds to chill and play </p>
+
+
+        <div>
+            
+        </div>
+
+    </Banner>
 
    
-   </article>
+   <div className="Right-section">
+    <img src={logo2} alt="Features"/>
+   </div>
+</div>
 
-        </div>
+
+<line className="Line"></line>
+
+
+</section>
     )
 }
 
 export default Features;
+
+
