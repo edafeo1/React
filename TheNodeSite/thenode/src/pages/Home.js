@@ -6,6 +6,7 @@ import About from '../components/About';
 import Features from '../components/Features';
 import Amenities from '../components/Amenities';
 import SuitesAvailable from '../components/SuitesAvailable';
+import FeaturedSpace from '../components/FeaturedSpace';
 
 
 
@@ -32,6 +33,7 @@ function Home() {
 
 <Amenities/>
 <SuitesAvailable/>
+<FeaturedSpace/>
 </>
   
 

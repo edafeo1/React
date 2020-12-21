@@ -11,15 +11,15 @@ import BathtubIcon from '@material-ui/icons/Bathtub';
 import SecurityIcon from '@material-ui/icons/Security';
 function Amenities() {
     return (
-<section className="about__section">
-<Title title="Amenities"/>
+<section id="amenities">
+
+<Title title="Amenities" className="title"></Title>
 
 
 
-<div className="amenities">
    <Banner 
     title=""
-    Subtitle="Amenities"
+    Subtitle=""
     classss="amenities-banner"
     >
                          <p>7 Person Meeting Room</p>
@@ -41,22 +41,13 @@ function Amenities() {
     </Banner>
 
    
-   <div className="Right">
-       <div className="icons">
-       <WifiIcon/>
-       <KitchenIcon/>
-       <MeetingRoomIcon/>
-       <PrintIcon/>
-       <ScannerIcon/>
-       <AccessibleIcon/>
-       <BathtubIcon/>
-       <SecurityIcon/>
-       </div>
-   </div>
-</div>
 
 
-<line className="Line"></line>
+   
+
+
+
+
 
 
 </section>

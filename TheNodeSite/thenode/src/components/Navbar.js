@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import logo from '../images/NodeLogo.jpg';
 
 import {Link} from 'react-router-dom';
 
@@ -20,7 +21,7 @@ handleClick=()=>{
             <div className="nav-center">
                 <div className="nav-header">
                     <Link to="/">
-                        <img src="" alt="The Node Site"/>
+                        <img src={logo} alt="The Node Site" className="Logo"/>
                     </Link>
 
                     <button type="button" className="nav-btn" onClick={this.handleClick}>
@@ -32,24 +33,21 @@ handleClick=()=>{
                 </div>
                 <ul className={this.state.isOpen? "nav-links show-nav":"nav-links"} >
                     <li>
-                        <Link to="/">Home</Link>
-                    </li>
-                    <li>
-                        <Link to="/meetingrooms">Meetingrooms</Link>
+                        <a href="/">Home</a>
                     </li>
 
                     <li>
-                        <Link to="/">Gallery</Link>
+                    <Link to="/meetingrooms">Gallery</Link>
                     </li>
                     <li>
-                        <Link to="/meetingrooms">Amenities</Link>
+                        <a href="#amenities">Amenities</a>
                     </li>
 
                     <li>
                         <Link to="/">Location</Link>
                     </li>
                     <li>
-                        <Link to="/meetingrooms">Events</Link>
+                        <Link to="/">Events</Link>
                     </li>
                 </ul>
             </div>

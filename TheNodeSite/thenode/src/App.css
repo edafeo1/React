@@ -90,13 +90,16 @@ h6 {
 /* Navbar */
 .navbar {
   position: fixed;
+  overflow: hidden;
   top: 0;
   left: 0;
   width: 100%;
   padding: 0.75rem 2rem;
   background: var(--offWhite);
-  z-index: 1;
+  /* handles Overlapping on the Page */
+  z-index: 3;
 }
+
 .nav-header {
   display: flex;
   justify-content: space-between;
@@ -327,7 +330,7 @@ h6 {
 
 .amenities{
   text-align: center;
-  display: flex;
+
   border-radius: 20px;
   margin-bottom: 10px;
   z-index: 2;
@@ -338,25 +341,21 @@ h6 {
   padding: 20px;
   margin-bottom: 120px;
   margin-top: 80px;
-  margin-left: 150px;
+
+  width: 100%;
 
 
   z-index: 2;
   text-align: center;
 }
 
-.Right{
-  padding: 20px;
-  margin-bottom: 40px;
-  margin-top: 50px;
-  z-index: 1;
-  margin-left: 500px;
-  position: absolute;
-  display: flex;
-  flex: 1;
-  justify-content: center
-}
 
-.icons{
-  display: flex;
+
+.Logo{
+width: 100px;
+object-fit: contain;
+margin-left: 10px;
+margin-right: 100px;
+
+
 }

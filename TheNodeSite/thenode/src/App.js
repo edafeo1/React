@@ -13,16 +13,21 @@ import FeaturedSpace from './components/FeaturedSpace';
 
 function App() {
   return (
-    <div className="App">
+
       <Router>
         <div>
           <Navbar/>
-          <Home/>
-          <FeaturedSpace/>
+          <Switch>
+            <Route exact path="/" component={Home}/>
+            <Route exact path="/meetingrooms" component={MeetingRooms}/>
+            <Route component={Error}/>
+
+          </Switch>
         </div>
       </Router>
-    </div>
+
   );
 }
 
 export default App;
+
