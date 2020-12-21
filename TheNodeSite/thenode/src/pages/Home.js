@@ -4,6 +4,7 @@ import Banner from '../components/Banner';
 import { Link } from 'react-router-dom';
 import About from '../components/About';
 import Features from '../components/Features';
+import Location from '../components/Location';
 import Amenities from '../components/Amenities';
 import SuitesAvailable from '../components/SuitesAvailable';
 import FeaturedSpace from '../components/FeaturedSpace';
@@ -14,7 +15,7 @@ import FeaturedSpace from '../components/FeaturedSpace';
 function Home() {
     return (
         
-       <div>
+       <div id="home">
 <>
 <Hero childeren={
     <Banner title="Welcome To The Node" Subtitle="Delux rooms starting $1600/Month" classss="banner">
@@ -34,6 +35,8 @@ function Home() {
 <Amenities/>
 <SuitesAvailable/>
 <FeaturedSpace/>
+<div className="space"></div>
+<Location/>
 </>
   
 

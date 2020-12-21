@@ -6,7 +6,7 @@ function Banner({children,title,Subtitle,classss}) {
             <h1>{title}</h1>
             <div></div>
             <h4>{Subtitle}</h4>
-            {children}
+            <p>{children}</p>
         </div>
     )
 }

@@ -10,8 +10,8 @@ function MeetingRooms() {
     return (
         <section id="meetingrooms">
              <div className="featured-space">
-
-<Title title="Featured space"/>
+<div className="space"></div>
+<Title title="Meeting Rooms"/>
 
 <Grid container spacing={11} justify="center">
     <Grid item component={Card}>

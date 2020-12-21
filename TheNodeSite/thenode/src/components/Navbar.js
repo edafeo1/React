@@ -44,7 +44,7 @@ handleClick=()=>{
                     </li>
 
                     <li>
-                        <Link to="/">Location</Link>
+                        <a href="/">Location</a>
                     </li>
                     <li>
                         <Link to="/">Events</Link>

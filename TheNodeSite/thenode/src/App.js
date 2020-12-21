@@ -9,6 +9,7 @@ import Error from "./pages/Error";
 import {Route, BrowserRouter as Router,Switch} from 'react-router-dom';
 import Navbar from "./components/Navbar"; 
 import FeaturedSpace from './components/FeaturedSpace';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Route component={Error}/>
 
           </Switch>
+          <Footer/>
         </div>
       </Router>
 

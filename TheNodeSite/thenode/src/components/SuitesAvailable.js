@@ -22,7 +22,7 @@ function SuitesAvailable() {
 
                  
                      <p>The Pent House office space at The Node Innovation Centre Collingwood is a Skyline office suitable for team of 13 people. it is on the second floor of The Node.</p>
-                     <p>The room is furnishedwith chairs and desks. This room has its entry and exit via the staircase.</p>
+                     <p>The room is furnished with chairs and desks. This room has its entry and exit via the staircase.</p>
                      
                      <p>1 Divider Desk to fit up to 8 people</p>
 

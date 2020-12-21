@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 :root {
-  --primaryColor: #af9a7d;
+  --primaryColor: rgb(99, 184, 233);
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBlack: #222;
@@ -236,12 +236,15 @@ h6 {
     z-index: 2;
   }
 
+
   .right__section{
     padding: 20px;
     margin-bottom: 40px;
+    margin-top: 60px;
     z-index: 1;
-    margin-left: 500px;
+    margin-left: 550px;
     position: absolute;
+
   }
 
   .about__section{
@@ -254,15 +257,59 @@ h6 {
   }
 
   .about__banner{
-    background-color: rgb(221, 218, 218);
+    background-color: rgb(248, 248, 248);
     padding: 20px;
     margin-bottom: 120px;
-    margin-top: 80px;
-    margin-left: 50px;
-    margin-right: 600px;
+    margin-top: 35px;
+    margin-left: 100px;
+    margin-right: 650px;
   
     z-index: 2;
     text-align: left;
+  }
+
+  .About__banner{
+    background-color: rgb(248, 248, 248);
+    padding: 20px;
+    margin-bottom: 200px;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 650px;
+  
+    z-index: 2;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 576px) {
+    .about__banner {
+      padding: 20px 30px;
+    }
+    .about__banner h1 {
+      font-size: 3rem;
+    }
+  
+    .about__banner p {
+      font-size: 4rem;
+      text-align: center;
+    }
+
+    .about__banner p {
+      font-size: 20px;
+      text-align: center;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .about__banner {
+      padding: 2rem 6rem;
+      margin-bottom: 40px;
+    }
+    .about__banner p {
+      font-size: 30px;
+    }
+    .about__banner p {
+      font-size: 1rem;
+      text-align: center;
+    }
   }
 
   /* End of About */
@@ -280,7 +327,7 @@ h6 {
 
 
 .features__banner{
-  background-color: rgb(221, 218, 218);
+  background-color: rgb(248, 248, 248);
   padding: 20px;
   margin-bottom: 120px;
   margin-top: 80px;
@@ -337,7 +384,7 @@ h6 {
 }
 
 .amenities-banner{
-  background-color: rgb(221, 218, 218);
+  background-color: rgb(248, 248, 248);
   padding: 20px;
   margin-bottom: 120px;
   margin-top: 80px;
@@ -358,4 +405,60 @@ margin-left: 10px;
 margin-right: 100px;
 
 
+}
+
+
+footer {
+  padding-top: 48px;
+  margin-bottom: 48px;
+  color: #303030;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+}
+
+footer a, footer a:visited { color: #525252; }
+footer a:hover, footer a:focus { color: darkgray; }
+
+/* copyright */
+footer .copyright {
+   margin: 0;
+   padding: 0;
+}
+footer .copyright li {
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+   line-height: 24px;
+}
+.ie footer .copyright li {
+  display: inline;
+}
+footer .copyright li:before {
+   content: "\2022";
+   padding-left: 10px;
+   padding-right: 10px;
+   color: #095153;
+}
+footer .copyright  li:first-child:before {
+   display: none;
+}
+
+.space{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.space2{
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.space3{
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.icon{
+  transform: scale(3.0);
 }
