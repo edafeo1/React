@@ -29,7 +29,6 @@ function Home() {
 <About/>
 </section>
 
-<Features/>
 
 
 <Amenities/>

@@ -6,6 +6,8 @@ import {Link} from 'react-router-dom';
 import DehazeIcon from '@material-ui/icons/Dehaze';
 
 export default class Navbar extends Component {
+
+    
 state={
     isOpen: false
 }
@@ -33,21 +35,21 @@ handleClick=()=>{
                 </div>
                 <ul className={this.state.isOpen? "nav-links show-nav":"nav-links"} >
                     <li>
-                        <a href="/">Home</a>
+                        <Link to="/">Home</Link>
                     </li>
 
                     <li>
                     <Link to="/meetingrooms">Gallery</Link>
                     </li>
                     <li>
-                        <a href="#amenities">Amenities</a>
+                        <a href="/amenities">Amenities</a>
                     </li>
 
                     <li>
-                        <a href="/">Location</a>
+                        <a href="/location">Location</a>
                     </li>
                     <li>
-                        <Link to="/">Events</Link>
+                        
                     </li>
                 </ul>
             </div>

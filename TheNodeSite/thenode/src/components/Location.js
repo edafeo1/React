@@ -5,7 +5,7 @@ import PinDropIcon from '@material-ui/icons/PinDrop';
 
 function Location() {
     return (
-        <section id="amenities">
+        <section id="location">
 
 
 
