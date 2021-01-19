@@ -12,6 +12,8 @@ import FeaturedSpace from './components/FeaturedSpace';
 import Footer from './components/Footer';
 import Amenities from './components/Amenities';
 import Location from './components/Location';
+import Contact from './components/Contact';
+import UpcomingEvents from './components/UpcomingEvents';
 
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
             <Route exact path="/meetingrooms" component={MeetingRooms}/>
             <Route exact path="/amenities" component={Amenities}/>
             <Route exact path="/location" component={Location}/>
+            <Route exact path="/contact" component={Contact}/>
+            <Route exact path="/events" component={UpcomingEvents}/>
             <Route component={Error}/>
 
           </Switch>

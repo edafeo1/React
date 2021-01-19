@@ -12,6 +12,7 @@ import room8 from '../images/Node-2.jpg';
 import room9 from '../images/Node-1.jpg';
 import room10 from '../images/Lets-innovate.jpg';
 import room11 from '../images/Node-Entry.jpg';
+import front from '../images/NodeBuildingfront.jpg';
 
 
 
@@ -22,7 +23,7 @@ function MeetingRooms() {
 <div className="space"></div>
 <Title title="Meeting Rooms"/>
 
-<Grid container spacing={11} justify="center">
+<Grid container spacing={12} justify="center">
     <Grid item component={Card}>
         <CardContent className="left">
             <img src={room1} alt=""  className="images"/>
@@ -38,6 +39,12 @@ function MeetingRooms() {
     <Grid item component={Card}>
         <CardContent className="left">
             <img src={room3} alt=""  className="images"/>
+        </CardContent>
+    </Grid>
+
+    <Grid item component={Card}>
+        <CardContent className="left">
+            <img src={front} alt=""  className="images"/>
         </CardContent>
     </Grid>
 

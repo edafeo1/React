@@ -11,7 +11,7 @@ function About() {
     return (
       <section class="section">
       <div class="title">
-        <h2>About</h2>
+        <Title title="About"/>
       </div>
 
       <div class="about-center section-center">
@@ -31,10 +31,12 @@ function About() {
                       
                        <p>Over 200 Sqm of Space! It flows over 2 floors with 4 private - & open office spaces with a 24/7 meeting room available.</p>
                        <p className="space3">Try out Collingwood's most talked-about business space. If your looking for a prestige fully serviced office The Node Innovation Centre Collingwood is the space for you. Depending on your office requirements our suites range between $800-$1200 per Week. </p>
+                       <p>5.0 Star Rating</p>
+                       <p className="space3">15+ Google Reviews</p>
             </div>
 
             <div class="content active" id="vision">
-              <h4>Our Features</h4>
+              <h4>Features</h4>
               <p>UNLIMITED Free WIFI</p>
            <p>UNLIMITED Free printing and scanning</p>
            <p>UNLIMITED 24/7 access to the space</p>

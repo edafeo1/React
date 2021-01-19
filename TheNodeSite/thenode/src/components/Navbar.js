@@ -41,12 +41,21 @@ handleClick=()=>{
                     <li>
                     <Link to="/meetingrooms">Gallery</Link>
                     </li>
+
                     <li>
-                        <a href="/amenities">Amenities</a>
+                        <Link to="/amenities">Amenities</Link>
                     </li>
 
                     <li>
-                        <a href="/location">Location</a>
+                        <Link to="/location">Location</Link>
+                    </li>
+
+                    <li>
+                        <Link to="/events">Events</Link>
+                    </li>
+
+                    <li>
+                        <Link to="/contact">Get in Contact</Link>
                     </li>
                     <li>
                         

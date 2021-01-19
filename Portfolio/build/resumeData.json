@@ -97,16 +97,16 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Quiz Application",
-        "category": "My Sample Quiz app",
-        "image": "project.jpg",
-        "url": "https://github.com/edafeo1/Quiz-Appllication"
+        "title": "GitHub Users",
+        "category": "GitHub users",
+        "image": "IMG_2354.JPG",
+        "url": "https://react-search-github-users.netlify.app/login"
       },
       {
         "title": "Covid Tracker",
         "category": "Covid Tracker Spring-Boot",
-        "image": "covidapp.JPG",
-        "url": "https://fegohuncho-covidtracker.herokuapp.com"
+        "image": "IMG_2353.JPG",
+        "url": "https://covidnotify.netlify.app/"
       },
       {
         "title": "Facebook Clone with React",
@@ -115,10 +115,10 @@
         "url": "https://darkbookclone.netlify.app"
       },
       {
-        "title": "Airbnb Clone",
-        "category": "Airbnb ReactJS",
-        "image": "project.jpg",
-        "url": "https://github.com/edafeo1/Airbnb-CLONE"
+        "title": "Sofa Store",
+        "category": "ReactJS",
+        "image": "IMG_2352.JPG",
+        "url": "https://vanilla-js-store.netlify.app/index.html"
       }
     ]
   },

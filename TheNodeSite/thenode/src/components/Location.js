@@ -21,15 +21,17 @@ function Location() {
         <div>
         <PinDropIcon className="icon"/>
         <div className="space2"></div>
-        <p>Our Location</p>
+        <p className="space3">26 Peel Street Collingwood</p>
         </div>
+
+        
+
+
 
     </Banner>
 
    
 
-
-   
 
 
 

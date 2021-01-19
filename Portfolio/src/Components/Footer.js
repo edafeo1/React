@@ -10,7 +10,7 @@ class Footer extends Component {
     }
 
     return (
-      <footer>git status
+      <footer>
 
      <div className="row">
         <div className="twelve columns">
